@@ -1,0 +1,3 @@
+# Welcome
+
+> MSTI docs
