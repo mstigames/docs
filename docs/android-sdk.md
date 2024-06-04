@@ -11,7 +11,7 @@ Android payment SDK allows to easily add MSTI payments powered by Stripe to a un
 ## Getting stared
 ### 1. Import the SDK into Unity
 ### 2. Resolve android dependenceis
-1. Enable custom gradle Template
+1. Enable custom gradle Template, properties and settings in `Player Settings > Publishing Settings` 
 2. If you use [EDM4U](https://github.com/googlesamples/unity-jar-resolver) android dependenceis will be automatically added to your project, otherwise copy packages from `/msti/Editor/dependencies.xml` to `mainTemplate.gradle`
 
 ## Unity IAP integration
@@ -33,5 +33,5 @@ var builder = ConfigurationBuilder.Instance (MstiPaymentsModule.Instance(), Stan
 ```
 
 ## Manual integartion
-If you don't use Unity IAP please email support@msti.games with brief explanation of your existing payment implementation we'll send you bespoke guide for integrating our SDK manually.
+If you don't use Unity IAP please email [support@msti.games](mailto:support@msti.games) with brief explanation of your existing payment implementation we'll send you bespoke guide for integrating our SDK manually.
 
