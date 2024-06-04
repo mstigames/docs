@@ -1,6 +1,6 @@
 ## Android payment sdk
 
-Android payment SDK allows to easily add MSTI payments powered by Stripe to a unity project. 
+The Android Payment SDK enables easy integration of MSTI payments, powered by Stripe, into your Unity project.
 
 ### Requirements
 
